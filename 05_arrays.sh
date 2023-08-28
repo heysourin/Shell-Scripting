@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#Array
+# Array
 
 myArray=(12 21 Hello "Ryle Phoenix" 44 14)
 
@@ -14,7 +14,7 @@ echo "Value at 3rd index: ${myArray[3]}"
 
 echo "All the values in array: ${myArray[*]}"
 
-#Array length:
+# Array length:
 
 echo "length of the array: ${#myArray[*]}"
 
