@@ -7,5 +7,7 @@ read name
 echo "Name is $name"
 
 #ANOTHER WAY
-read -p "Tera naam kya h?" naam
-echo "Tera name is $naam"
+read -p "What is your name bruh? " name2
+echo "Your name is $name2"
+
+

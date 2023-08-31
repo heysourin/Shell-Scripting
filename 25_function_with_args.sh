@@ -5,6 +5,7 @@
 function welcomeNote {
 	echo "--------------------"
 	echo "Welcome $1"
+
 	echo "--------------------"
 	echo "Age is $2"
 }

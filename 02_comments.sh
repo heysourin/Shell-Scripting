@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "Checking comments"
+echo "Before comments"
 
 #Single line comment
 
@@ -11,5 +11,7 @@ a
 multi
 line 
 comments
+
 comment
 
+echo "After comments"
