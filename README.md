@@ -6,8 +6,8 @@ Welcome to the Shell Scripting Tutorial repository! In this tutorial, you'll lea
 
 ## Table of Contents
 
-1. [Introduction to Shell Scripting](#introduction-to-shell-scripting)
-
+1. [What is a Shell?](#what-is-a-shell)
+2. [Different Types of Shells](#different-types-of-shells)
 
 # What is a Shell?
 A shell is a command-line interface (CLI) program that provides a user-friendly way to interact with an operating system (OS) or a computer system. It serves as a bridge between the user and the kernel (core of OS) by interpreting and executing commands entered by the user or by scripts.
