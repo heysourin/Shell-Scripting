@@ -4,15 +4,56 @@ Welcome to the Shell Scripting Tutorial repository! In this tutorial, you'll lea
 
 - Video Reference (In Hindi): https://www.youtube.com/watch?v=TtGM9GfBuok&t=13429s 
 
-## Table of Contents
+# Table of Contents
 
 1. [What is a Shell?](#what-is-a-shell)
 2. [Different Types of Shells](#different-types-of-shells)
-3. [What is shell scripting?](#what-is-shell-scripting?)
-4. [Key characteristics and functions of a shell include:](#key-characteristics-and-functions-of-a-shell-include:)
+3. [What is Shell Scripting?](#what-is-shell-scripting)
+4. [Key characteristics and functions of a shell include](#key-characteristics-and-functions-of-a-shell-include)
 5. [Shebang](#shebang)
 6. [Output in the Terminal](#output-in-the-terminal)
-7. [How to create a Shell File?](#how-to-create-a-shell-file?)
+7. [How to Create a Shell File?](#how-to-create-a-shell-file)
+8. [How to Save the File from Editor?](#how-to-save-the-file-from-editor)
+9. [How to Run Shell Scripts?](#how-to-run-shell-scripts)
+10. [Comments](#comments)
+11. [Variables](#variables)
+12. [Array](#array)
+13. [User Input](#user-input)
+14. [Arithmetic operatings](#arithmetic-operatings)
+15. [Conditionals](#conditionals)
+    - [if-else](#if-else)
+    - [elif](#elif)
+    - [choice](#choice)
+    - [Logical Operators](#logical-operators)
+    - [Ternary Operator](#ternary-operator)
+16. [Loops](#loops)
+    - [for loop](#for-loop)
+    - [for loop Iteration on Files](#for-loop-iteration-on-files)
+    - [for loop on an Array](#for-loop-on-an-array)
+    - [while loop](#while-loop)
+    - [until loops](#until-loops)
+    - [Infinite loop using while loop](#infinite-loop-using-while-loop)
+    - [Infinite loop using for loop](#infinite-loop-using-for-loop)
+    - [Reading a File using While Loop](#reading-a-file-using-while-loop)
+17. [Functions](#functions)
+    - [Function with Arguments](#function-with-arguments)
+    - [Arguments passing directly on the shell](#arguments-passing-directly-on-the-shell)
+18. [Break, Continue, and Sleep](#break-,-continue-,-and-sleep)
+    - [Break](#break)
+    - [Continue](#continue)
+    - [Sleep, Exit, and `$?`](#sleep-exit-and-)
+19. [Connectivity Check](#connectivity-check)
+20. [Checking if a File and Directory Exist](#checking-if-a-file-and-directory-exist)
+    - [Directory](#directory)
+    - [File](#file)
+21. [Bash Variables](#bash-variables)
+22. [Login as Root User](#login-as-root-user)
+23. [Redirection](#redirection)
+24. [Log Messages](#log-messages)
+25. [Debugging](#debugging)
+26. [Running a File in the Background](#running-a-file-in-the-background)
+27. [Automation](#automation)
+
 
 # What is a Shell?
 A shell is a command-line interface (CLI) program that provides a user-friendly way to interact with an operating system (OS) or a computer system. It serves as a bridge between the user and the kernel (core of OS) by interpreting and executing commands entered by the user or by scripts.
@@ -47,7 +88,7 @@ etc
 - All the commands execute sequentially.
 - Some important tasks engineers do with shell scripting is file manipulation, program execution, user interaction, automation etc.  
 
-# Key characteristics and functions of a shell include:
+# Key characteristics and functions of a shell include
 
 - Command Interpretation: The shell interprets commands entered by the user and translates them into instructions that the operating system can understand and execute.
 
@@ -458,7 +499,7 @@ done
 ```
 The loop will run until `a`'s value becomes equal to `1`.
 
-## Infinite loop - using while loop
+## Infinite loop using while loop
 ```bash
 #!/bin/bash
 
@@ -471,7 +512,7 @@ done
 - This is how we write a infinite loop.
 - `sleep 2s`: It will trigger the loop to run every 2 seconds.
 
-## Infinite loop - using for loop
+## Infinite loop using for loop
 ```bash
 #!/bin/bash
 
