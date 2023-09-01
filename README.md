@@ -8,6 +8,11 @@ Welcome to the Shell Scripting Tutorial repository! In this tutorial, you'll lea
 
 1. [What is a Shell?](#what-is-a-shell)
 2. [Different Types of Shells](#different-types-of-shells)
+3. [What is shell scripting?](#what-is-shell-scripting?)
+4. [Key characteristics and functions of a shell include:](#key-characteristics-and-functions-of-a-shell-include:)
+5. [Shebang](#shebang)
+6. [Output in the Terminal](#output-in-the-terminal)
+7. [How to create a Shell File?](#how-to-create-a-shell-file?)
 
 # What is a Shell?
 A shell is a command-line interface (CLI) program that provides a user-friendly way to interact with an operating system (OS) or a computer system. It serves as a bridge between the user and the kernel (core of OS) by interpreting and executing commands entered by the user or by scripts.
