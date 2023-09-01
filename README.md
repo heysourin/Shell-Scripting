@@ -2,6 +2,8 @@
 
 Welcome to the Shell Scripting Tutorial repository! In this tutorial, you'll learn the fundamentals of shell scripting, a powerful skill for automating tasks, managing systems, and more. Whether you're a beginner or have some programming experience, this guide will help you understand the basics of shell scripting.
 
+- Video Reference (In Hindi): https://www.youtube.com/watch?v=TtGM9GfBuok&t=13429s 
+
 ## Table of Contents
 
 1. [Introduction to Shell Scripting](#introduction-to-shell-scripting)
@@ -10,7 +12,7 @@ Welcome to the Shell Scripting Tutorial repository! In this tutorial, you'll lea
 # What is a Shell?
 A shell is a command-line interface (CLI) program that provides a user-friendly way to interact with an operating system (OS) or a computer system. It serves as a bridge between the user and the kernel (core of OS) by interpreting and executing commands entered by the user or by scripts.
 
-![Hardware](https://github.com/heysourin/Shell-Scripting/assets/98945276/c20e3e33-0e37-4e39-91a5-6075fc2feffd)
+<img src="https://github.com/heysourin/Shell-Scripting/assets/98945276/1713e770-23bd-4653-806e-4ed44de07ac9" width="500" height="400">
 
 # Different Types of Shells
 
@@ -255,7 +257,7 @@ echo "Subtraction is: $(($x-$y))"
 
 
 # Conditionals
-![image](https://github.com/heysourin/Shell-Scripting/assets/98945276/798ddba3-1f64-433a-b458-1d4ad73ae030)
+<img src="https://github.com/heysourin/Shell-Scripting/assets/98945276/798ddba3-1f64-433a-b458-1d4ad73ae030" width="400" height="400">
 
 ## if-else
 ```bash
