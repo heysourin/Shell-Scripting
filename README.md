@@ -255,8 +255,7 @@ echo "Subtraction is: $(($x-$y))"
 
 
 # Conditionals
-file:///home/heysourin/Desktop/Copy%20of%20Hardware.png
-
+![image](https://github.com/heysourin/Shell-Scripting/assets/98945276/798ddba3-1f64-433a-b458-1d4ad73ae030)
 
 ## if-else
 ```bash
